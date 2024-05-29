@@ -1,0 +1,20 @@
+---
+title: "Python Environment"
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+## Python Version
+```{python}
+import sys
+print(sys.version)
+```
+
+## Environment
+
+```{python}
+import os
+for k,v in os.environ.items():
+  print(f"{k}={v}")
+```
